@@ -25,7 +25,7 @@
 		<section>
 	
 			<section>
-				<p>Apples and Oranges is a full-service WordPress shop. We create custom themes and CMSes for our clients.</p>
+				<p>Apples and Oranges! is a full-service WordPress shop. We create custom themes and CMSes for our clients.</p>
 				<h2>Not just good. Uncomparable.</h2>
 
 			</section> 
