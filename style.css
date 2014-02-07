@@ -81,7 +81,7 @@ body {
 }
 
 .main {
-	width: 50%;
+	width: 400px;
 	margin-right: auto;
 	line-height: 1.5em;
 	margin-left: 3em;
@@ -128,8 +128,7 @@ footer p {
 .clearfix:before,
 .clearfix:after {
 	content: " ";
-	display: inline;
-
+	display: table;
 }
 
 .clearfix:after {
