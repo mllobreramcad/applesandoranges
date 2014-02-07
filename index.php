@@ -23,12 +23,11 @@
 		<?php endwhile; else : ?>
 		<p><?php_e('Sorry, no content'); ?></p>
 	<?php endif; ?>
-			 <?php get_sidebar(); ?> 
-			<!--<article class="col1">
+
+			<article class="col1">
 			
-			<p>Flannel vero id stumptown. Neutra messenger bag deserunt aliqua twee eu. Keffiyeh skateboard shabby chic, salvia chambray nisi beard sint Banksy bicycle rights id Vice bespoke. Odio Terry Richardson sint occaecat commodo. Thundercats cardigan velit, Echo Park irony tote bag viral reprehenderit enim magna. Enim bespoke asymmetrical commodo, consectetur in banh mi. Messenger bag slow-carb Schlitz, culpa duis banh mi sartorial craft beer bespoke bitters.</p>
+			 <?php get_sidebar(); ?> 
 
-
-			</article>-->
+			</article>
 
 		<?php get_footer(); ?>
