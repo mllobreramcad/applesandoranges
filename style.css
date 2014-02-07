@@ -81,19 +81,16 @@ body {
 }
 
 .main {
-	width: 400px;
-	margin-right: auto;
-	line-height: 1.5em;
-	margin-left: 3em;
+	width: 80%;
+	float: left;
+
 
 }
 
 .sidebar {
-	width: 200px;
-	line-height: 1.5em;
-	background-color: #ccc;
-	padding: 15px;
+	width: 20%;
 	float: left;
+	padding: 2em;
 
 }
 
