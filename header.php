@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php bloginfo('name')?></title>
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>">
-	<script src="http://use.edgefonts.net/droid-serif.js"></script>
-	<script src="http://use.edgefonts.net/merriweather.js"></script>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
 	<?php wp_head(); ?>
+	<title><?php bloginfo('name')?></title>
+	<script src="http://use.edgefonts.net/droid-serif.js"></script>
+	<script src="http://use.edgefonts.net/merriweather.js"></script>
+
 </head>
 	<body <?php body_class( $class ); ?>>
 		<header>
