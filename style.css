@@ -128,7 +128,7 @@ footer p {
 .clearfix:before,
 .clearfix:after {
 	content: " ";
-	display: table;
+	display: inline;
 
 }
 
