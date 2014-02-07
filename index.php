@@ -2,7 +2,7 @@
 	<?php get_header(); ?>
 		<div class="clearfix">
 
-		<section class="main">
+		<section>
 	
 			<section>
 				<p>Apples and Oranges! is a full-service WordPress shop. We create custom themes and CMSes for our clients.</p>
@@ -12,7 +12,7 @@
 
 		</section>
 
-		<article>
+		<article class="main">
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<a href="<?php the_permalink(); ?>"><h2><?php the_title_attribute(); ?></h2></a>
 			<?php the_content(); ?>
@@ -22,7 +22,7 @@
 
 			</article>
 
-						<article class="col1">
+			<article class="col1">
 			
 			 <?php get_sidebar(); ?> 
 
