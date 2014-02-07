@@ -1,6 +1,8 @@
 
 	<?php get_header(); ?>
-		<section>
+		<div class="clearfix">
+
+		<section class="main">
 	
 			<section>
 				<p>Apples and Oranges! is a full-service WordPress shop. We create custom themes and CMSes for our clients.</p>
@@ -23,6 +25,8 @@
 		<?php endwhile; else : ?>
 		<p><?php_e('Sorry, no content'); ?></p>
 	<?php endif; ?>
+
+		</div>
 
 			<article class="col1">
 			
