@@ -5,6 +5,7 @@
 	<script src="http://use.edgefonts.net/droid-serif.js"></script>
 	<script src="http://use.edgefonts.net/merriweather.js"></script>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
+	<?php wp_head(); ?>
 </head>
 	<body>
 		<header>
