@@ -68,7 +68,7 @@ body {
 
 }
 
-section > section {
+.tagline {
 	width: 100%;
 	margin-right: auto;
 	line-height: 1.5em;
@@ -76,17 +76,15 @@ section > section {
 
 }
 
-section > section h1 {
+.tagline h1 {
 	font-size: 2em;
 }
 
 .main {
-	width: 40%;
+	width: 50%;
 	margin-right: auto;
 	line-height: 1.5em;
 	margin-left: 3em;
-	clear: both;
-
 
 }
 
@@ -96,8 +94,6 @@ section > section h1 {
 	background-color: #ccc;
 	padding: 15px;
 	float: left;
-
-
 
 }
 
