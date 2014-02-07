@@ -81,7 +81,7 @@ section > section h1 {
 }
 
 article {
-	width: 100%;
+	width: 70%;
 	margin-right: auto;
 	line-height: 1.5em;
 	margin-left: 3em;
@@ -94,9 +94,7 @@ article {
 	line-height: 1.5em;
 	background-color: #ccc;
 	padding: 15px;
-	display: inline;
-	float: right;
-
+	float: left;
 
 
 }
