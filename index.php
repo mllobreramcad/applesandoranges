@@ -22,16 +22,18 @@
 
 			</article>
 
+						<article class="col1">
+			
+			 <?php get_sidebar(); ?> 
+
+			</article>
+
 		<?php endwhile; else : ?>
 		<p><?php_e('Sorry, no content'); ?></p>
 	<?php endif; ?>
 
 		</div>
 
-			<article class="col1">
-			
-			 <?php get_sidebar(); ?> 
 
-			</article>
 
 		<?php get_footer(); ?>
