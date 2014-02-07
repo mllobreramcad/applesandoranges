@@ -15,12 +15,13 @@
 					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/appleorange.jpg" />
 
 			<nav>
-				<ul>
+				<?php wp_nav_menu( array( 'menu' => 'Main Nav') ); ?>
+				<!-- <ul>
 					<a href="#"><li>Themes</li></a>
 					<a href="#"><li>Process</li></a>
 					<a href="#"><li>Clients</li></a>
 					<a href="#"><li>Contact Us</li></a>
-				</ul>
+				</ul> -->
 			</nav>
 
 		</header>
