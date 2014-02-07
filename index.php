@@ -1,6 +1,6 @@
 
 	<?php get_header(); ?>
-		<div class="clearfix">
+
 
 		<section class="tagline">
 	
@@ -9,7 +9,7 @@
 
 		</section> 
 
-		</div>
+
 
 
 
@@ -20,17 +20,23 @@
 			<?php the_content(); ?>
 
 		</article>
-		</div>
 
-			<article class="sidebar">
+				<?php endwhile; else : ?>
+		<p><?php_e('Sorry, no content'); ?></p>
+	<?php endif; ?>
+
+					<article class="sidebar">
 			
 			 <?php get_sidebar(); ?> 
 
 			</article>
 
-		<?php endwhile; else : ?>
-		<p><?php_e('Sorry, no content'); ?></p>
-	<?php endif; ?>
+
+
+
+
+			</div>
+
 
 
 
