@@ -91,13 +91,12 @@ article {
 
 .col1 {
 	width: 400px;
-	margin-right: auto;
 	line-height: 1.5em;
-	margin-left: 3em;
 	background-color: #ccc;
 	padding: 15px;
-	margin-top: 25px;
+	display: inline;
 	float: left;
+
 
 
 }
