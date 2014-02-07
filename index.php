@@ -22,7 +22,7 @@
 		</article>
 		</div>
 
-			<article class="col1">
+			<article class="sidebar">
 			
 			 <?php get_sidebar(); ?> 
 
